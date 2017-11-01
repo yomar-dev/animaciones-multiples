@@ -52,6 +52,6 @@ body{
 	}
 
 	100%{
-		transform: translateY(100px);
+		transform: translateY(120px) scale(1, .8);
 	}
 }

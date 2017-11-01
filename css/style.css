@@ -28,10 +28,11 @@ body{
 	height: 100px;
 	width: 100px;
 	position: relative;
-	animation-name: rebotar;
-	animation-duration: 10s;
+	animation-name: rebotar, saltar;
+	animation-duration: 10s, .5s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+	animation-timing-function: linear;
 }
 
 
@@ -41,5 +42,16 @@ body{
 	}
 	100% {
 		left: calc(100% - 100px);
+	}
+}
+
+
+@keyframes saltar{
+	0%{
+		transform: translateY(-50px);
+	}
+
+	100%{
+		transform: translateY(50px);
 	}
 }

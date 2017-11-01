@@ -1,0 +1,30 @@
+body{
+	color: #555;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.contenedor{
+	border: 1px solid #333;
+	display: flex;
+	align-items: center;
+	height: 200px;
+	width: 100%;
+}
+
+.circulo{
+	background-color: teal;
+	border-radius: 50%;
+	color: #fff;
+	display: flex;
+	font-size: 14px;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100px;
+}

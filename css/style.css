@@ -12,7 +12,7 @@ body{
 	border: 1px solid #333;
 	display: flex;
 	align-items: center;
-	height: 200px;
+	height: 400px;
 	width: 100%;
 }
 
@@ -25,11 +25,11 @@ body{
 	font-weight: bold;
 	justify-content: center;
 	align-items: center;
-	height: 100px;
-	width: 100px;
+	height: 200px;
+	width: 200px;
 	position: relative;
 	animation-name: rebotar, saltar;
-	animation-duration: 10s, .5s;
+	animation-duration: 10s, .7s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 	animation-timing-function: linear;
@@ -41,17 +41,17 @@ body{
 		left: 0;
 	}
 	100% {
-		left: calc(100% - 100px);
+		left: calc(100% - 200px);
 	}
 }
 
 
 @keyframes saltar{
 	0%{
-		transform: translateY(-50px);
+		transform: translateY(-100px);
 	}
 
 	100%{
-		transform: translateY(50px);
+		transform: translateY(100px);
 	}
 }
